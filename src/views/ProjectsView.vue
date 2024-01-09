@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-       <div class="row">
+       <div class="row vh-100 align-content-center">
 <h2 >Projects</h2>
        </div>
 

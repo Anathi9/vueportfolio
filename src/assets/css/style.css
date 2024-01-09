@@ -43,3 +43,20 @@
   border-radius: 10rem;
 
 }
+#contactMe {
+  background-color:dimgrey;
+}
+#msg{
+  width: -10px;
+  height: -10px;
+  position: relative;
+  animation: mymoves 2s infinite;
+}
+
+@keyframes mymoves {
+  from {left: 0px;}
+  to {left: 70px;}
+}
+.para1{
+  color: lightskyblue;
+}
