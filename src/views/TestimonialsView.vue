@@ -3,7 +3,7 @@
         <h5 class="display-5">Testimonials</h5>
        <div class="row">
            <div class="row">
-            <div class="card m-5" style="width: 18rem;" v-for="Testimonials in testimonials " :key="Testimonials">
+            <div class="card m-5" id="" style="width: 18rem;" v-for="Testimonials in testimonials " :key="Testimonials">
       <div class="card-body">
         <img class="card-images" :src=" Testimonials.profile" alt="Profile picture" width="200" height="200">
         <h3 class="card-title">{{Testimonials.name}}</h3>
