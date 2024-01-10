@@ -60,3 +60,6 @@
 .para1{
   color: lightskyblue;
 }
+.nav-item:hover{
+  background-color: black;
+}
