@@ -35,7 +35,7 @@
     aspect-ratio: 1/1;
  }
 .navbar, .footer{
-  background: #647578;
+  background: #2c3e50;
   color: white;
 }
 #img1{
@@ -59,7 +59,12 @@
 }
 .para1{
   color: lightskyblue;
+  
 }
 .nav-item:hover{
   background-color: black;
+}
+#img2{
+  border: 4px;
+  border-radius: 10rem;
 }
