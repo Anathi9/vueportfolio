@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-       <div class="row vh-100 align-content-center">
+       <div class="row vh-100 ">
 <h2>Testimonials</h2>
        </div>
 
