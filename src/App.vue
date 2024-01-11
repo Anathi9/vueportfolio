@@ -1,12 +1,12 @@
 <template>
 
-  <main class="container-fluid">
   <NavBar />
+  <main class="container-fluid">
   
     <router-view/>
     <Spinner />
-    <Footer/>
   </main>
+  <Footer/>
 
 
 </template>

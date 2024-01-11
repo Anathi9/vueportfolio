@@ -1,6 +1,6 @@
 <template>
      <div class="container vh-150">
-        <h5 class="display-5">Testimonials</h5>
+        <h5 >Testimonials</h5>
        <div class="row">
            <div class="row">
             <div class="card m-5" id="c-body4" style="width: 18rem;" v-for="Testimonials in testimonials " :key="Testimonials">
