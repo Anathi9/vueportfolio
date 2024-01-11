@@ -1,17 +1,38 @@
 <template>
-    <div class="container">
-       <div class="row vh-100 ">
-<h2 >Projects</h2>
-       </div>
-       
-    </div>
-    
+    <div class="container vh-150">
+       <h5 class="display-5">Projects</h5>
+      <div class="row">
+          <div class="row">
+           <div class="card m-5" id="" style="width: 18rem;" v-for="Projects in projects " :key="Projects">
+     <div class="card-body">
+       <img class="card-images" :src=" Projects.image" alt="Profile picture" width="200" height="200">
+       <h3 class="card-title">{{Projects.name}}</h3>
+       <h4 class="card-subtitle">{{ Projects.description }}</h4>
+       <span class="card-text">{{Projects.gitHub}}</span>
+     </div>
+   </div>
+   </div>
+      </div>
+   </div>
 </template>
 
 <script>
     export default {
-  
-     }  
+        methods : {
+            getProj(){
+                return this.$store.state.projects
+            }
+        },
+        computed:{
+         projects(){
+            console.log(this.$store.state.projects);
+            return this.$store.state.projects
+         }   
+        },
+        mounted() {
+           return this.$store.dispatch('fetchProjects') 
+        }
+    }
     
 </script>
 
