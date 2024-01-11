@@ -1,6 +1,6 @@
 <template>
-    <div class="spinner">
-<spinner v-if="loading"/>
+    <div class="spinner" v-if="loading">
+
     </div>
 </template>
 

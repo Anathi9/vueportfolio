@@ -4,7 +4,7 @@
   <NavBar />
   
     <router-view/>
-
+    <Spinner />
     <Footer/>
   </main>
 

@@ -3,7 +3,7 @@
         <div class="container vh-100">
         <div class="row text-center" >
       <div class="header py-5">
-        <h3 class="display-5 text-info">Let's get in touch</h3>
+        <h2 class="display-5 text-info">Let's get in touch</h2>
       </div>
     </div>
     <form action="https://formspree.io/f/xrgwdqen" method="post" class="row g-3">

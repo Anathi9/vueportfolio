@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand">
+    <nav class="navbar navbar-expand ">
   <div class="container-fluid">
     <RouterLink to="/">
      <img class="img-fluid" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSFmSh3aXu-LYQEnPHAogE38xKlm4t03HEBZ9DNNC2ZVaM2EWgJDq35S1Xx38tCngtVFKHBpOW7URStJXmC51GwDXe9=w600-h1284" width="60">
