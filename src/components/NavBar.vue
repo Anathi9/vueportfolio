@@ -1,8 +1,8 @@
 <template>
-    <nav class="navbar navbar-expand ">
+    <nav class="navbar navbar-expand-lg w-100">
   <div class="container-fluid">
     <RouterLink to="/">
-     <img class="img-fluid" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSFmSh3aXu-LYQEnPHAogE38xKlm4t03HEBZ9DNNC2ZVaM2EWgJDq35S1Xx38tCngtVFKHBpOW7URStJXmC51GwDXe9=w600-h1284" width="60">
+     <img class="img-fluid " src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSFmSh3aXu-LYQEnPHAogE38xKlm4t03HEBZ9DNNC2ZVaM2EWgJDq35S1Xx38tCngtVFKHBpOW7URStJXmC51GwDXe9=w600-h1284" width="60">
     </RouterLink>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
