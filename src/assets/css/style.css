@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+*{
+  overflow-x: hidden;
+}
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -25,6 +28,16 @@
     
 
   }
+
+  .navbar-collapse {
+    margin-left: 60rem;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .navbar-collapse {
+      margin-left: 0;
+    }
+  }
   
   /* nav a.router-link-exact-active {
     color: #647578;
@@ -39,15 +52,33 @@
   background: #2c3e50;
   color: white;
 }
+
 #img1{
   border: 4px;
   border-radius: 10rem;
 
+
 }
 #contactMe {
-  background-color: #2c3e50;
+  /* background-color: #2c3e50; */
+  overflow: hidden;
   box-shadow: 4vw .8vw 1.2vw;
 }
+#inputname,#Email{
+  background-color: #2c3e50;
+ border: 2px solid;
+ border-radius: 30px;
+ height: 60px;
+ 
+  
+}
+#inputYourmessage{
+background-color: #2c3e50;
+height: 90px;
+border-radius: 30px;
+}
+
+
 #msg{
   width: -10px;
   height: -10px;
@@ -57,7 +88,7 @@
 
 @keyframes mymoves {
   from {left: 0px;}
-  to {left: 70px;}
+  to {left: 50px;}
 }
 .para1{
   color: lightskyblue;
@@ -86,18 +117,24 @@
   background-color: #2c3e50;
   color: aliceblue;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .set-md-2 {
    set: 1;
   }
-}
+} */
 .set-md-1{
   set: 2;
 }
 .text-md-end {
   text-align: center;
 }
+
 @media (max-width:576px) {
+  #img1{
+    margin-left: -14px;
+    height: 300px;
+    width: 280px;
+  }
   .message{
     padding: 1rem;
   }
@@ -111,15 +148,7 @@
     drop-shadow(2px 4px 4px) 
     sepia(0.3);
 }
-#img1:hover{ 
-  transform: scale(1.1, 1.1);
-}
-#img1:active{
-    transform: scale(1.1, 1.1);
-    filter: hue-rotate(220deg)
-    drop-shadow(2px 4px 4px) 
-    sepia(0.3);
-}
+
 #img2:hover{ 
   transform: scale(1.1, 1.1);
 }
@@ -155,4 +184,22 @@
     filter: hue-rotate(220deg)
     drop-shadow(2px 4px 4px) 
     sepia(0.3);
+}
+
+/* @media only screen and (max-width: 300px) {
+  #img2 {
+    margin-top: 570px;
+  }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 767px) {
+  #img2 {
+    margin-top: 570px;
+  }
+} */
+
+@media (max-width: 767px) {
+  /* #img2 {
+    margin-top: 200px;
+  }  */
 }
