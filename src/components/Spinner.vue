@@ -1,7 +1,11 @@
 <template>
-    <div class="spinner" v-if="loading">
+  <div class="container">
+    <div class="spinner-border" role="status" id="spinner">
+  <span class="visually-hidden">Loading...</span>
+</div>
 
-    </div>
+  </div>
+      
 </template>
 
 <script>
@@ -16,5 +20,10 @@
 </script>
 
 <style scoped>
+#spinner{
+    position: absolute;
+    bottom: 35%;
+    left: 30%;
 
+}
 </style>

@@ -2,10 +2,10 @@
     <div class="container vh-150">
        <h5 >Projects</h5>
       <div class="row">
-          <div class="row">
+          <div class="row mx-5">
            <div class="card m-5" id="c-body1" style="width: 18rem;" v-for="Projects in projects " :key="Projects">
      <div class="card-body">
-       <img class="card-images" :src=" Projects.image" alt="Profile picture" loading="lazy" width="80" height="80">
+       <img class="card-images" :src=" Projects.image" alt="Profile picture" loading="lazy" width="80" height="80" id="img3">
        <h6 class="card-title">{{Projects.name}}</h6>
        <h6 class="card-subtitle">{{ Projects.description }}</h6>
        <!-- < :href=""> -->

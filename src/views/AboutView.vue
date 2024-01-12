@@ -25,9 +25,14 @@
         }
       },
       mounted()  {
-        this.$store.dispatch.about;
-      }
-    }
+        try{
+          this.$store.dispatch.about;
+        }catch(fault){
+        console.Console.fault("Fault in store dispatch:", );
+        }
+
+      },
+    };
 </script>
 
 <style scoped>
