@@ -1,6 +1,6 @@
 <template>
     <div class="contacts"  id="contactMe">
-        <div class="container vh-100">
+        <div class="container  vh-100 ">
         <div class="row text-center" >
       <div class="header py-5">
         <h2 class="display-5 text-info">Let's get in touch</h2>
@@ -17,11 +17,11 @@
       </div>
       <div class="col-12">
         <label for="inputAYour message" class="form-label text-info">Your message</label>
-        <input type="text" name="message" class="form-control message p-5" required id="inputYour message" placeholder="enter your message">
+        <input type="text" name="message" class="form-control message p-3" required id="inputYour message" placeholder="enter your message">
       </div>
 
       <div class="col-12">
-        <button type="submit" class="btn btn-dark text-info">Send</button   >
+        <button type="submit" class="btn btn-dark text-info">Send</button>
       </div>
     </form>
     </div>
