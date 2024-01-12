@@ -9,8 +9,8 @@
        <h6 class="card-title">{{Projects.name}}</h6>
        <h6 class="card-subtitle">{{ Projects.description }}</h6>
        <!-- < :href=""> -->
-       <button class="btn btn-info m-4" ><a :href="Projects.gitHub">github</a></button>
-       <button class="btn btn-info"><a :href="Projects.netlify">netlify</a></button>
+       <button class="btn btn-info m-4" ><a :href="Projects.gitHub" target="_blank">github</a></button>
+       <button class="btn btn-info"><a :href="Projects.netlify" target="_blank">netlify</a></button>
        
        
      </div>

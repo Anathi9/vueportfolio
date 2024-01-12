@@ -1,5 +1,5 @@
 <template>
-    <div class="footer container-fluid ">
+    <div class="footer container-fluid fixed-bottom">
         <div class="row">
             <p class="lead">Anathi Josefu &copy;
             <span>{{ currentYear }}</span>
@@ -9,6 +9,7 @@
 
         </div>
     </div>
+    
     
 </template>
 

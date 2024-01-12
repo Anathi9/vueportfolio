@@ -17,7 +17,7 @@
       </div>
       <div class="col-12">
         <label for="inputAYour message" class="form-label text-info">Your message</label>
-        <input type="text" name="message" class="form-control message p-3" required id="inputYour message" placeholder="enter your message">
+        <input type="text" name="message" class="form-control message p-3" required id="inputYourmessage" placeholder="enter your message">
       </div>
 
       <div class="col-12">
