@@ -46,7 +46,7 @@
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <RouterLink to="/">
-     <img class="img-fluid " src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSFmSh3aXu-LYQEnPHAogE38xKlm4t03HEBZ9DNNC2ZVaM2EWgJDq35S1Xx38tCngtVFKHBpOW7URStJXmC51GwDXe9=w600-h1284" width="60">
+     <img class="img-fluid " src="https://i.ibb.co/x5F8ZBh/images22.png" width="60">
     </RouterLink>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
