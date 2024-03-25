@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row vh-100 align-items-center">
       <div class="col-md-5 set-md-2 text-md-end">
-        <img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYT3TIXG15XCOtLGzgZxHDTU-Fx95dqBEvzoVG4t6oyv_4q9F0j_6c80GTPozp40bYmgzt0v3DRMpWDnfu6BP99iUH6qRQ=w1960-h4196" alt="" loading="lazy" width="300" id="img1">
+        <img src="https://i.ibb.co/GVQhPX9/DSC-0316-1.jpg alt=" loading="lazy" width="300" id="img1">
       </div>
       <div class="col-md-6 my-5 set-md-1">
         <p class="display-5" id="msg">
