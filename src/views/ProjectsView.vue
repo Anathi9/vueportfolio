@@ -8,7 +8,7 @@
        <img class="card-images" :src=" Projects.image" alt="Profile picture" loading="lazy" width="80" height="80" id="img3">
        <h6 class="card-title">{{Projects.name}}</h6>
        <h6 class="card-subtitle">{{ Projects.description }}</h6>
-       <!-- < :href=""> -->
+       
        <button class="btn btn-info m-4" ><a :href="Projects.gitHub" target="_blank">github</a></button>
        <button class="btn btn-info"><a :href="Projects.netlify" target="_blank">netlify</a></button>
        

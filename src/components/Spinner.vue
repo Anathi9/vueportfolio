@@ -1,4 +1,4 @@
-<template>
+ <template>
   <div class="container">
     <div class="spinner-border" role="status" id="spinner">
   <span class="visually-hidden">Loading...</span>
@@ -13,6 +13,7 @@
        name: 'SpinnerComp',
        data() {
         return{
+
             loading:true,
         };
        },
@@ -26,4 +27,5 @@
     left: 30%;
 
 }
-</style>
+</style> 
+
