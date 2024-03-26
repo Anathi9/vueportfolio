@@ -1,4 +1,4 @@
-<template>
+ <template>
   <div class="about">
     <div class="container" >
       <h5 >About</h5>
@@ -37,4 +37,8 @@
 
 <style scoped>
 
-</style>
+</style> -->
+
+ -->
+
+

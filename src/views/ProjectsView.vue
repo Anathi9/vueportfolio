@@ -1,6 +1,6 @@
 <template>
     <div class="container vh-150">
-       <h5 >Projects</h5>
+       <h2 >Projects</h2>
       <div class="row">
           <div class="row mx-5">
            <div class="card m-5" id="c-body1" style="width: 18rem;" v-for="Projects in projects " :key="Projects">
