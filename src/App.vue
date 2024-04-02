@@ -1,11 +1,11 @@
 <template>
 
   <NavBar />
-  <main class="container-fluid">
+  <!-- <main> -->
   
     <router-view/>
     <Spinner />
-  </main>
+  <!-- </main> -->
   <Footer/>
 
 

@@ -40,11 +40,11 @@
 
 
 
-<template>
+<!-- <template>
   <div class="container">
     <div class="contact-form">
       <h1>Reach Me</h1>
-      <form action="https://formspree.io/f/xjvnkgnq" class="form" method="post" @submit.prevent="submitForm">
+      <form action="https://formspree.io/f/xrgwdqen" class="form" method="post" @submit.prevent="submitForm">
         <div class="form-group">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" v-model="formData.name" required class="form-control">
@@ -144,5 +144,104 @@ export default {
 }
 .btn-primary:hover {
   background-color: #9A9B9C;
+}
+</style> -->
+
+
+
+<template>
+  <div class="container">
+    <div class="contact-form">
+      <h1>Reach Me</h1>
+      <form action="https://formspree.io/f/xrgwdqen" class="form" method="post" @submit.prevent="submitForm">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" v-model="formData.name" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" v-model="formData.email" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" v-model="formData.message" required class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-info">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div class="personal-details">
+      <h2>Personal Details</h2>
+      <p><b>Name:</b> Anathi Josefu</p>
+      <p><b>Email:</b> anathijosefu@gmail.com</p>
+      <p><b>Phone:</b> 083 27 8 2711</p>
+      <p><b>Address:</b> Makhaza , Cape Town, South Africa</p>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      formData: {
+        name: '',
+        email: '',
+        message: ''
+      }
+    };
+  },
+  methods: {
+    submitForm() {
+      console.log('Form submitted with data:', this.formData);
+    }
+  }
+};
+</script>
+
+<style scoped>
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+ 
+  background-size: cover;
+  background-position: top;
+}
+.contact-form {
+  width: 50%;
+  margin-right: 20px;
+  font-family: 'Lobster', cursive;
+}
+.personal-details {
+  width: 50%;
+  font-family: 'Lobster', cursive;
+}
+.personal-details h2 {
+  margin-bottom: 65px;
+}
+.form-group {
+  margin-bottom: 50px;
+}
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.btn-primary {
+  background-color: #949596;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #9A9B9C;
+}
+p {
+  font-family: 'Your Google Font', sans-serif; /* Replace 'Your Google Font' with the name of the Google Font you want to use */
 }
 </style>
