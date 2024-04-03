@@ -3,8 +3,8 @@
         <div class="row">
             <p class="lead">Anathi Josefu &copy;
             <span>{{ currentYear }}</span>
-            <i class="bi bi-facebook mx-2"></i>
-            <i class="bi bi-linkedin"></i>
+            <!-- <i class="bi bi-facebook mx-2"></i>
+            <i class="bi bi-linkedin"></i> -->
             </p>
 
         </div>

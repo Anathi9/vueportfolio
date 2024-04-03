@@ -60,7 +60,7 @@
 
 }
 #contactMe {
-  /* background-color: #2c3e50; */
+ 
   overflow: hidden;
   box-shadow: 4vw .8vw 1.2vw;
 }
@@ -149,7 +149,7 @@ border-radius: 30px;
     sepia(0.3);
 }
 
-#img2:hover{ 
+/* #img2:hover{ 
   transform: scale(1.1, 1.1);
 }
 #img2:active{
@@ -157,7 +157,7 @@ border-radius: 30px;
     filter: hue-rotate(220deg)
     drop-shadow(2px 4px 4px) 
     sepia(0.3);
-}
+} */
 #img3:hover{ 
   transform: scale(1.1, 1.1);
 }

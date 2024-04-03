@@ -149,7 +149,7 @@ export default {
 
 
 
-<template>
+ <template>
   <div class="container">
     <div class="contact-form">
       <h1>Reach Me</h1>
@@ -242,6 +242,8 @@ export default {
   background-color: #9A9B9C;
 }
 p {
-  font-family: 'Your Google Font', sans-serif; /* Replace 'Your Google Font' with the name of the Google Font you want to use */
+  font-family: 'Your Google Font', sans-serif; 
 }
-</style>
+</style> 
+
+

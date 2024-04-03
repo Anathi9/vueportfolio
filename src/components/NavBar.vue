@@ -66,8 +66,8 @@
           </RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink class="nav-link active text-white" to="/resume">
-            Resume
+          <RouterLink class="nav-link active text-white" to="/education">
+            Education
           </RouterLink>
         </li>
         <li class="nav-item">
