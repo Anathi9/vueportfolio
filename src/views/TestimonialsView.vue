@@ -7,7 +7,7 @@
         <div class="col-lg-4 col-md-4 col-sm-6 mb-4" v-for="testimonial in testimonials" :key="testimonial.id">
           <div class="card bg-dark text-white testimonial-card">
             <div class="card-body d-flex flex-column align-items-center">
-              <img class="card-images mb-3" :src="testimonial.profile" alt="Profile picture" loading="lazy" width="120" height="120">
+              <img class="card-images mb-3" :src="testimonial.profile" alt="Profile picture" loading="lazy" width="110" height="110">
               <h3 class="card-title mb-2">{{ testimonial.name }}</h3>
               <h4 class="card-subtitle mb-3">{{ testimonial.surname }}</h4>
               <span class="card-text text-center">{{ testimonial.quotes }}</span>
@@ -87,5 +87,6 @@
     padding-bottom: 20px;
     overflow-y: hidden;
   }
+  /* console */
   </style>
   

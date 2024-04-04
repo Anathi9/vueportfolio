@@ -1,7 +1,7 @@
 
 
  <template>
-  <div class="about">
+  <div class="about"> 
     <!-- <h5>About </h5> -->
     <div class="container">
       <div class="row align-items-center">
@@ -89,7 +89,7 @@ export default {
 }
 .lead {
   margin:50px;
-  /* font-family: 'orbitron'; */
+
   font-size: medium;
   overflow-y: hidden;
 }
