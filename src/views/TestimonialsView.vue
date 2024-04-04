@@ -19,6 +19,7 @@
   </template>
   
   <script>
+  
   export default {
     computed: {
       testimonials() {
@@ -31,13 +32,17 @@
   };
   </script>
   
+  
   <style scoped>
-  .testimonials-container {
-    background-color: black;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body{
+  font-family: 'Orbitron', sans-serif;
+}
   
   .text-white {
     color: white;
+    font-family: 'Orbitron', sans-serif;
+
   }
   
   .bg-dark {
@@ -70,11 +75,13 @@
   .card-subtitle {
     text-align: center;
     overflow-y: hidden;
+    font-family: 'Orbitron', sans-serif;
   }
   
   .card-text {
     text-align: justify;
     overflow-y: hidden;
+    font-family: 'Orbitron', sans-serif;
   }
 
   .mb-4 {

@@ -6,7 +6,7 @@
         <div class="col-lg-4">
           <div class="card bg-light text-dark p-3">
             <div class="card-body">
-              <h2 class="card-title text-center text-dark mb-4">Let's get in touch</h2>
+              <h2 class="c card-title text-center text-dark mb-4">Let's get in touch</h2>
               <form action="https://formspree.io/f/xrgwdqen" method="post">
                 <div class="mb-3">
                   <label for="inputname" class="form-label text-dark">Full Name</label>
@@ -30,7 +30,7 @@
         <div class="col-lg-4">
           <div class="deta">
             <div>
-              <h2 class="card-title text-center text-dark mb-4">Personal Details</h2>
+              <h2 class=" t card-title text-center text-dark mb-4">Personal Details</h2>
 
                  <p><b>Name:</b> Anathi Josefu</p>
                  <p><b>phone:</b>083 27 8 2711</p>
@@ -60,18 +60,29 @@ export default {
 <style scoped>
 .message {
   min-height: 100px;
-  color :black
+  color :black;
+  overflow-y: hidden;
 }
 .social-icons a {
   font-size: 24px;
+  overflow-y: hidden;
 }
 .deta{
   color:white;
  margin-top: 100px;
+ overflow-y: hidden;
 
 }
 .social1{
   margin:10px;
+  overflow-y: hidden;
+}
+.c{
+  overflow-y: hidden;
+  font-family: 'oribotron';
+}
+.t{
+  overflow-y: hidden;
 }
 
 </style>

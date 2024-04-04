@@ -111,7 +111,8 @@
     overflow-y: hidden;
   }
   .work-experience-cards{ 
-    color:white
+    color:white;
+    font-family: 'Orbitron', sans-serif;
   }
   </style>  
 

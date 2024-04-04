@@ -104,7 +104,7 @@ export default {
 </nav> -->
 
 
-<template>
+ <template>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <RouterLink to="/">
@@ -162,8 +162,16 @@ export default {
 
 .navbar {
   font-family: 'Orbitron', sans-serif;
-  font-size: x-small;
+  font-size:x-small;
+
  
   
 }
-</style>
+</style> 
+
+
+
+
+ 
+
+

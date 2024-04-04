@@ -83,7 +83,7 @@ export default {
 }
 .about{
   text-align: center;
-  /* font-family: 'orbitron'; */
+   font-family: 'orbitron'; 
   
  
 }
