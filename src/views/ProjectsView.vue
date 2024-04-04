@@ -1,48 +1,4 @@
-    <!-- <template>
-    <div class="container vh-150">
-       <h2 >Projects</h2>
-      <div class="row">
-          <div class="row mx-5">
-           <div class="card m-5" id="c-body1" style="width: 18rem;" v-for="Projects in projects " :key="Projects">
-     <div class="card-body">
-       <img class="card-images" :src=" Projects.image" alt="Profile picture" loading="lazy" width="150" height="80" id="img3">
-       <h6 class="card-title">{{Projects.name}}</h6>
-       <h6 class="card-subtitle">{{ Projects.description }}</h6>
-       
-       <button class="btn btn-info m-4" ><a :href="Projects.gitHub" target="_blank">github</a></button>
-       <button class="btn btn-info"><a :href="Projects.netlify" target="_blank">netlify</a></button>
-       
-       
-     </div>
-   </div>
-   </div>
-      </div>
-   </div>
-</template>
 
-<script>
-    export default {
-        methods : {
-            getProj(){
-                return this.$store.state.projects
-            }
-        },
-        computed:{
-         projects(){
-            console.log(this.$store.state.projects);
-            return this.$store.state.projects
-         }   
-        },
-        mounted() {
-           return this.$store.dispatch('fetchProjects') 
-        }
-    }
-    
-</script>
-
-<style scoped>
-
-</style> -->
 
 <template>
     <div class="projects-container bg-black">
@@ -85,7 +41,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
   .projects-container {
     padding: 25px;
+    overflow-y: auto;
   }
+
   
   .bg-black {
     background-color: black;
@@ -101,10 +59,12 @@
   
   .card {
     transition: transform 0.3s ease-in-out;
+    overflow-y: hidden;
   }
   
   .hovered .card {
     transform: scale(1.05);
+    overflow-y: hidden;
   }
   
   @media (max-width: 768px) {
@@ -132,15 +92,18 @@
 
 .card {
   transition: transform 0.3s ease-in-out;
+  overflow-y: hidden;
 }
 
 .card:hover {
   transform: translateY(-5px); 
+  overflow-y: hidden;
 }
 
 @media (max-width: 768px) {
   .card {
     width: 100%;
+    overflow-y: hidden;
   }
 }
 .card-title{
@@ -151,6 +114,7 @@
 }
 .p{
     font-family:'orbitron';
+    overflow-y: hidden;
 }
 
 </style>

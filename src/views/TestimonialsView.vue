@@ -1,58 +1,16 @@
-<!-- <template>
-     <div class="container vh-150">
-        <h2 >Testimonials</h2>
-       <div class="row mx-5">
-           <div class="row">
-            <div class="card m-5" id="c-body4" style="width: 18rem;" v-for="Testimonials in testimonials " :key="Testimonials">
-      <div class="card-body">
-        <img class="card-images" :src=" Testimonials.profile" alt="Profile picture" loading="lazy" width="100" height="100" id="imgC">
-        <h3 class="card-title">{{Testimonials.name}}</h3>
-        <h4 class="card-subtitle">{{ Testimonials.surname }}</h4>
-        <span class="card-text">{{Testimonials.quotes}}</span>
-      </div>
-    </div>
-    </div>
-       </div>
-    </div>
-</template>
-
-<script>
-     export default {
-        methods : {
-            getTest(){
-                return this.$store.state.testimonials
-            }
-        },
-        computed:{
-         testimonials(){
-            console.log(this.$store.state.testimonials);
-            return this.$store.state.testimonials
-         }   
-        },
-        mounted() {
-           return this.$store.dispatch('fetchTestimonials') 
-        }
-    }
-</script>
-
-<style scoped>
-
-</style> -->
 
 
-  
-  
-<template>
-    <div class="testimonials-container bg-black">
-      <h2 class="text-white text-center">Testimonials</h2>
+  <template>
+    <div class="testimonials-container bg-black py-5">
+    
       <div class="row mx-auto">
-        <div class="col-lg-4 col-md-6 col-sm-12" v-for="testimonial in testimonials" :key="testimonial.id">
-          <div class="card m-3 bg-dark text-white testimonial-card">
-            <div class="card-body">
-              <img class="card-images" :src="testimonial.profile" alt="Profile picture" loading="lazy" width="80" height="80">
-              <h3 class="card-title">{{ testimonial.name }}</h3>
-              <h4 class="card-subtitle">{{ testimonial.surname }}</h4>
-              <span class="card-text">{{ testimonial.quotes }}</span>
+        <div class="col-lg-4 col-md-4 col-sm-6 mb-4" v-for="testimonial in testimonials" :key="testimonial.id">
+          <div class="card bg-dark text-white testimonial-card">
+            <div class="card-body d-flex flex-column align-items-center">
+              <img class="card-images mb-3" :src="testimonial.profile" alt="Profile picture" loading="lazy" width="120" height="120">
+              <h3 class="card-title mb-2">{{ testimonial.name }}</h3>
+              <h4 class="card-subtitle mb-3">{{ testimonial.surname }}</h4>
+              <span class="card-text text-center">{{ testimonial.quotes }}</span>
             </div>
           </div>
         </div>
@@ -76,7 +34,6 @@
   <style scoped>
   .testimonials-container {
     background-color: black;
-    padding: 25px;
   }
   
   .text-white {
@@ -89,29 +46,46 @@
   
   .testimonial-card {
     transition: transform 0.3s;
+    height: 100%;
+    overflow-y: hidden;
   }
   
   .testimonial-card:hover {
     transform: scale(1.05);
+    overflow-y: hidden;
   }
   
   .card-body {
     padding: 8px;
+    overflow-y: hidden;
   }
   
   .card-images {
     display: block;
     margin: 0 auto;
+    overflow-y: hidden;
   }
   
   .card-title,
   .card-subtitle {
     text-align: center;
+    overflow-y: hidden;
   }
   
   .card-text {
     text-align: justify;
+    overflow-y: hidden;
+  }
+
+  .mb-4 {
+    margin-bottom: 20px;
+    overflow-y: hidden;
+  }
+  
+  
+  .py-5 {
+    padding-bottom: 20px;
+    overflow-y: hidden;
   }
   </style>
-  
   

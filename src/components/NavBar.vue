@@ -127,7 +127,7 @@ export default {
           </li>
           <li class="nav-item">
             <RouterLink class="nav-link active text-white" to="/education">
-              Education
+              Education&Experience
             </RouterLink>
           </li>
           <li class="nav-item">
@@ -142,7 +142,7 @@ export default {
           </li>
           <li class="nav-item">
             <RouterLink class="nav-link active text-white" to="/contact">
-              Contacts
+              Contact
             </RouterLink>
           </li>
         </ul>
@@ -161,7 +161,9 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .navbar {
-  font-family: 'orbitron';
-  font-size: small;
+  font-family: 'Orbitron', sans-serif;
+  font-size: x-small;
+ 
+  
 }
 </style>
