@@ -71,7 +71,7 @@ export default {
 
  <template>
   <div class="about">
-    <h5>About</h5>
+    <h5>About </h5>
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
@@ -86,7 +86,7 @@ export default {
               <span>Email:</span> anathijosefu@gmail.com
             </p>
             <p class="lead about-text">
-              Greetings! I am Anathi Josefu, an aspiring full-stack Developer. I am eager to leverage my knowledge and experience as an aspiring full-stack developer with a strong focus on reliability, communication, and willingness to take on any challenges. I aim to excel as a full-stack developer, which allows me to further develop my skills and actively contribute to the organization's objectives. I am a young woman who is passionate and driven about being a full-stack developer. I want to apply my skills and knowledge so that I can make people's jobs easier and more productive.
+              Greetings! I am Anathi Josefu, an aspiring full-stack Developer. I am eager to leverage my knowledge and experience as an aspiring full-stack developer with a strong focus on reliability, communication, and willingness to take on any challenges. I aim to excel as a full-stack developer, which allows me to further develop my skills and actively contribute to the organization's objectives. I am a young woman who is passionate and driven about being a full-stack developer. I want to apply my skills and knowledge so that I can make people's jobs easier and more productive.My soft skills I'm driven by empathy and effective communication, I strive to foster collaboration and create positive impacts in every endavour.s
             </p>
           </div>
         </div>
@@ -102,6 +102,8 @@ export default {
 </script>
 
 <style scoped>
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 .about {
   background-color: #000;
   background-size: cover;
@@ -112,10 +114,13 @@ export default {
 
 .profile-img {
   transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+
 }
 
 .profile-img:hover {
   transform: rotate(360deg);
+  overflow-y: hidden;
 }
 
 .about-text {
@@ -129,6 +134,7 @@ export default {
 
 .animate-text {
   animation: slideIn 1s ease-in-out;
+  overflow-y: hidden;
 }
 
 @keyframes slideIn {
@@ -146,8 +152,21 @@ export default {
 }
 .about{
   text-align: center;
+  
+ 
 }
 .lead {
-  margin:20px;
+  margin:50px;
+  font-family: 'orbitron';
+  font-size: medium;
+  overflow-y: hidden;
+ 
 }
-</style>
+</style> 
+
+
+
+
+
+
+ 
