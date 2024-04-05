@@ -1,5 +1,4 @@
 
-
 <template>
     <div class="projects-container bg-black">
       <h2 class=" p text-white">Projects</h2>
@@ -10,8 +9,8 @@
               <img class="card-images" :src="project.image" alt="Project image" loading="lazy" width="150" height="80">
               <h6 class="card-title">{{ project.name }}</h6>
               <h6 class="card-subtitle">{{ project.description }}</h6>
-              <button class="btn btn-info m-2"><a :href="project.gitHub" target="_blank" class="text-white">GitHub</a></button>
-              <button class="btn btn-info m-2"><a :href="project.netlify" target="_blank" class="text-white">Netlify</a></button>
+              <button class="btn btn-info m-2 "><a :href="project.gitHub" target="_blank" class="text-white">GitHub</a></button>
+              <button class="btn btn-info m-2 "><a :href="project.netlify" target="_blank" class="text-white">Netlify</a></button>
             </div>
           </div>
         </div>
@@ -116,8 +115,19 @@
     font-family:'orbitron';
     overflow-y: hidden;
 }
-
+.btn{
+    font-family: 'orbotron';
+}
 </style>
 
 
   
+
+
+
+
+
+
+
+   
+

@@ -40,7 +40,7 @@ export default {
 
 .display-5, .lead {
   font-family: 'orbitron';
-  /* font-weight: bold; */
+  font-weight: bold;
   color:  rgb(104, 186, 236);
   overflow-y: hidden;
 }
