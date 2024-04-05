@@ -35,7 +35,7 @@
           <div class="col">
             <h2 class="w text-white mb-4">Work Experience</h2>
             <div class="work-experience-cards">
-              Add work experience cards here 
+             
               <p><b>company:</b> Life Choices  Academy</p>
                  <p><b>Position:</b>LC intern</p>
                  <p><b>year:</b>2024</p>
