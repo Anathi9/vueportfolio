@@ -17,6 +17,37 @@
             </div>
           </div>
         </div>
+
+        <div class="row mt-5">
+          <div class="col">
+            <h2 class="s text-white mb-4">Work Experience</h2>
+            <div class="work Experience-cards">
+              <div class="card bg-dark text-white mb-3">
+                <div class="card-body">
+                  
+                  <h4 class="work-experience">Company: <span>Lifechoices Studio</span></h4>
+                  <h6 class="card-subtitle">Position: <span class="lead">Intern</span></h6>
+                  <h6 class="card-subtitle">Year: <span class="lead">2024</span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col">
+            <div class="work Experience-cards">
+              <div class="card bg-dark text-white mb-3">
+                <div class="card-body">
+            
+                  <h4 class="work-experience">Company: <span>Noxolo Xauka Primary school</span></h4>
+                  <h6 class="card-subtitle">Position: <span class="lead">Education Assistant</span></h6>
+                  <h6 class="card-subtitle">Year: <span class="lead">2020-2022</span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="row mt-5">
           <div class="col">
             <h2 class="s text-white mb-4">Skills</h2>
@@ -31,25 +62,7 @@
             </div>
           </div>
         </div>
-        <div class="row mt-5">
-          <div class="col">
-            <h2 class="w text-white mb-4">Work Experience</h2>
-            <div class="work-experience-cards">
-             
-              <p><b>company:</b> Life Choices  Academy</p>
-                 <p><b>Position:</b>LC intern</p>
-                 <p><b>year:</b>2024</p>
-    
-            </div>
-            <div class="work-experience-cards">
-              
-              <p><b>company:</b> Noxolo Xauka primary school</p>
-                 <p><b>Position:</b>Education Assistant</p>
-                 <p><b>year:</b>2020-2022</p>
-    
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   </template> 
@@ -62,11 +75,16 @@
       },
       skills() {
         return this.$store.state.skills
+      },
+      work() {
+        return this.$store.state.work
       }
     },
     mounted() {
       this.$store.dispatch('fetchEducation');
       this.$store.dispatch('fetchSkills');
+      this.$store.dispatch('fetchWork');
+
     }
   }
   </script>
@@ -90,7 +108,7 @@
   .card-image {
     border-radius: 50%;
     width: 100px;
-    height: 100px;
+    height: 100px;  
     transition: transform 0.3s ease;
   }
   
@@ -102,6 +120,10 @@
   .card-subtitle,
   .card-text {
     font-family: 'Orbitron', sans-serif;
+  }
+  .work-experience{
+    font-family: 'Orbitron', sans-serif;
+
   }
   
   .e,

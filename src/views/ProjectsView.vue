@@ -70,6 +70,9 @@
     .card {
       width: 100%;
     }
+    .projects-container{
+        margin-left: -8%;
+    }
   }
 
   

@@ -49,4 +49,18 @@ export default {
   margin: 100px;
   font-family:'orbitron'
 }
+@media (max-width: 768px) {
+  .display-5, .lead {
+    font-size: 18px;
+  }
+  .para1{
+    font-size: 18px;
+  }
+
+  .btn {
+    margin: 50px;
+    font-size: 16px;
+  }
+}
+
 </style>
