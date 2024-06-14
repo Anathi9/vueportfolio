@@ -17,7 +17,9 @@
               <span>Email:</span> anathijosefu@gmail.com
             </p>
             <p class="lead about-text">
-              Greetings! I am Anathi Josefu, an aspiring full-stack Developer. I am eager to leverage my knowledge and experience as an aspiring full-stack developer with a strong focus on reliability, communication, and willingness to take on any challenges. I aim to excel as a full-stack developer, which allows me to further develop my skills and actively contribute to the organization's objectives. I am a young woman who is passionate and driven about being a full-stack developer. I want to apply my skills and knowledge so that I can make people's jobs easier and more productive.My soft skills I'm driven by empathy and effective communication, I strive to foster collaboration and create positive impacts in every endavours
+              Greetings! I am Anathi Josefu, an aspiring full-stack web developer with a passion for leveraging my skills and experience as a full-stack web developer. I am dedicated to ensuring reliability and effective communication in all my projects, and I am always willing to take on new challenges. My goal is to excel as a full-stack developer, allowing me to further develop my skills and actively contribute to the organization's objectives.
+
+In addition to my technical skills, I bring strong soft skills to the table. Driven by empathy and effective communication, I strive to foster collaboration and create positive impacts in every endeavor. I have also completed a Networking Technician certification from Cisco, which enhances my technical proficiency and understanding of network infrastructure.Furthermore, I hold the LC Scrum Principle badge and a certification in Operating System Basics from Cisco, which broaden my knowledge and capabilities in scrum and system operations.
             </p>
           </div>
         </div>
@@ -86,7 +88,7 @@ export default {
    font-family: 'orbitron'; 
   
  
-}
+} 
 .lead {
   margin:50px;
 

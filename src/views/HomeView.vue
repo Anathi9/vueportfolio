@@ -19,12 +19,12 @@
 </template>
 
 <script>
-import Spinner from '@/components/Spinner.vue';
-export default {
-  components: {
-    Spinner
-  }
-}
+// import Spinner from '@/components/Spinner.vue';
+// export default {
+//   components: {
+//     // Spinner
+//   }
+// }
 </script>
 
 <style scoped>
